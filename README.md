@@ -20,7 +20,8 @@ samples, guidance on mobile development, and a full API reference.
 
 ```flutter pub get```
 
-Далее стартуем любой эмулятор.
+Подключаем реальный андроид через кабель к телефону.
+Выбираем телефон в поле `Devices`
 
 Далее запускаем команду:
 
@@ -29,14 +30,20 @@ samples, guidance on mobile development, and a full API reference.
 
 
 ## iOS
+
+Подключаем реальный андроид через кабель к телефону.
+Выбираем телефон в поле `Devices`
+
 Если нужно запустить iOS проект то в корне проекта:
 
 ```cd ios```
+
 ```pod install```
 
 Если комп Mac OS на процессоре M1 и выше то:
 
 ```sudo arch -x86_64 gem install ffi```
+
 ```arch -x86_64 pod install --repo-update```
 
 ---
