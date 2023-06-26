@@ -1,13 +1,6 @@
 # ble_scanner_flutter
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
+### Это документация по Flutter
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
@@ -15,13 +8,16 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
+---
+
+Подключаем реальный андроид через кабель к телефону.
+Можно и эмулятор но на нем не будет работать BLE
+Выбираем телефон в поле `Devices`
+
 ## Android
 В корне проекта запускаем команду:
 
 ```flutter pub get```
-
-Подключаем реальный андроид через кабель к телефону.
-Выбираем телефон в поле `Devices`
 
 Далее запускаем команду:
 
@@ -30,10 +26,6 @@ samples, guidance on mobile development, and a full API reference.
 
 
 ## iOS
-
-Подключаем реальный андроид через кабель к телефону.
-Выбираем телефон в поле `Devices`
-
 Если нужно запустить iOS проект то в корне проекта:
 
 ```cd ios```
