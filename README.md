@@ -16,4 +16,13 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 В корне проекта запускаем команды:
+
 ```flutter pub get```
+
+Далее запускаем команду:
+
+```flutter run```
+
+Если нужно очистить проект:
+
+```Flutter clean```
