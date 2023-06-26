@@ -15,14 +15,32 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-В корне проекта запускаем команды:
+## Android
+В корне проекта запускаем команду:
 
 ```flutter pub get```
+
+Далее стартуем любой эмулятор.
 
 Далее запускаем команду:
 
 ```flutter run```
 
-Если нужно очистить проект:
+
+
+## iOS
+Если нужно запустить iOS проект то в корне проекта:
+
+```cd ios```
+```pod install```
+
+Если комп Mac OS на процессоре M1 и выше то:
+
+```sudo arch -x86_64 gem install ffi```
+```arch -x86_64 pod install --repo-update```
+
+---
+
+### Если нужно очистить проект:
 
 ```Flutter clean```
