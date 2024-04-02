@@ -1,6 +1,6 @@
 package com.example.ble_scanner_flutter.model
 
-class Beacon(mac: String?) {
+class BeaconEntity(mac: String?) {
     enum class beaconType {
         iBeacon, eddystoneUID, any
     }
@@ -11,12 +11,13 @@ class Beacon(mac: String?) {
     var uuid: String? = null
     var major: Int? = null
     var minor: Int? = null
+    var txPower: Int? = null;
     var namespace: String? = null
     var instance: String? = null
     var rssi: Int? = null
     override fun equals(other: Any?): Boolean {
         if (this === other) return true
-        if (other !is Beacon) return false
+        if (other !is BeaconEntity) return false
 
         if (macAddress != other.macAddress) return false
 
